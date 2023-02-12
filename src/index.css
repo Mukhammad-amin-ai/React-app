@@ -1,13 +1,85 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import'https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css';
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/А\ 1.png');
+    background-repeat: no-repeat;
+    background-color: #1E2232FF;
+}
+.navbar{
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+.navbar_logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.icons{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.icons i{
+    font-size: 30px;
+}
+.navbar_menu{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar_menu ul{
+    display: flex;
+    gap: 30px;
+}
+.navbar_menu ul li{
+    color: #fff;
+}
+.navbar_buttons{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.navbar_buttons button:nth-child(1){
+    width: 55px;
+    height: 52px;
+    border: none;
+    border-radius: 10px;
+   
+}
+.navbar_buttons button:nth-child(2){
+    width: 138px;
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3657CB;
+    font-size: 16px;
+    color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
