@@ -81,6 +81,21 @@ import "./index.css";
 
 // img 
 import img1 from "./img/Логотип.png";
+import img2 from "./img/image 1.png";
+import img3 from "./img/image 2.png";
+import img4 from "./img/image 3.png";
+import img5 from "./img/image 4.png";
+import img6 from "./img/image 5.png";
+import img7 from "./img/image 6.png";
+import img8 from "./img/image 7.png";
+import img2a from "./img/image 2a.png";
+
+
+
+
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -115,5 +130,98 @@ root.render(
         <button>Войти</button>
       </div>
     </div>
+      <div className="title">
+        <div className="title_left">
+          <h1>Сейчас в кино</h1>
+          <div className="tt_line"></div>
+        </div>                  
+        <div className="title_right">
+          <ul>
+            <li>Все</li>
+            <li>Боевики</li>
+            <li>Приключения</li>
+            <li>Комедии</li>
+            <li>Фантастика</li>
+            <li>Триллеры</li>
+            <li>Драма</li>
+          </ul>
+        </div>
+      </div>
+      <div className="album">
+        <div className="card">
+          <div className="card_top">
+            <img src={img2} alt="$"/>
+          </div>
+          <div className="card_text">
+            <h3>Побег из Претории</h3>
+            <p>Триллер</p>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card_top">
+            <img src={img2a} alt="$"/>
+          </div>
+          <div className="card_text">
+            <h3>Джокер</h3>
+            <p>Триллер, драма, криминал</p>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card_top">
+            <img src={img3} alt="$"/>
+          </div>
+          <div className="card_text">
+            <h3>Звёздные войны: Скайуокер. Восход</h3>
+            <p>Фантастика, фэнтези, боевик, приключения</p>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card_top">
+            <img src={img4} alt="$"/>
+          </div>
+          <div className="card_text">
+            <h3>Джентльмены</h3>
+            <p>Боевик, комедия, криминал</p>
+          </div>
+        </div>
+      </div>
+        <div className="bottom_album">
+        <div className="card">
+          <div className="card_top">
+            <img src={img5} alt="$"/>
+          </div>
+          <div className="card_text">
+            <h3>Ford против Ferrari</h3>
+            <p>Биография, спорт, драма, боевик</p>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card_top">
+            <img src={img6} alt="$"/>
+          </div>
+          <div className="card_text">
+            <h3>3022</h3>
+            <p>Фантастика, триллер</p>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card_top">
+            <img src={img7} alt="$"/>
+          </div>
+          <div className="card_text">
+            <h3>Хищные птицы: Потрясающая история Харли Квинн</h3>
+            <p>Боевик, криминал, комедия</p>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card_top">
+            <img src={img8} alt="$"/>
+          </div>
+          <div className="card_text">
+            <h3>Плохие парни навсегда</h3>
+            <p>Боевик, комедия, криминал</p>
+          </div>
+        </div>
+        </div>
   </div>
 );
